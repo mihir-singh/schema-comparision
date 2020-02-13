@@ -154,7 +154,7 @@ for cols in cols1:
             print("alter not required")
 
 
-# # Dump the array to hql file to executed manually.
+# # Dump the array  to hql file to executed manually.
 
 
 with open('{}/query.hql'.format(sys.argv[2]), 'w') as f:
