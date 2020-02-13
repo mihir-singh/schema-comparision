@@ -2,8 +2,8 @@
 # coding: utf-8
 
 # # Author: Mihir Singh
-# 
-# 
+# system argv 1 -> location of json file 
+# system arv 2 -> location where final alter command are created in hql
 # 
 # # import necessary spark and python libraries
 
