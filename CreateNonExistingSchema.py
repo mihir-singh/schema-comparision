@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 #SPARK_MAJOR_VERSION=2 spark-submit --conf spark.hadoop.fs.permissions.umask-mode=000
---master yarn --deploy-mode client --num-executors 5 --executor-cores 4 --executor-memory 10GB
---driver-memory 10G --conf spark.port.maxRetries=50 --conf spark.debug.maxToStringFields=1000 
+#--master yarn --deploy-mode client --num-executors 5 --executor-cores 4 --executor-memory 10GB
+#--driver-memory 10G --conf spark.port.maxRetries=50 --conf spark.debug.maxToStringFields=1000 
 # # Author: Mihir Singh
 # system argv 1 path were json exist
 # 2 namenode path of onprem
